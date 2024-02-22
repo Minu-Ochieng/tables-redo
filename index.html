@@ -25,17 +25,29 @@
           <div class="name">
             <label for="firstName"> First Name:</label>
             <br />
-            <input type="text" id="name" placeholder="Name" required />
+            <input type="text" id="name" placeholder="Name" id="input" />
             <br /><br />
             &nbsp;&nbsp;
             <label for="firstName"> Last Name:</label>
             <br />
-            <input type="text" id="name" placeholder="Name" required />
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+              id="input"
+            />
             <br /><br />
           </div>
           <br /><br />
           <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="Email" required />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+            class="input"
+          />
           <br /><br />
           <label for="password">Password:</label>
           <input
@@ -43,6 +55,7 @@
             id="password"
             placeholder="Password"
             required
+            class="input"
           />
           <br /><br />
           <label for="password"> Confirm Password:</label>
@@ -51,14 +64,17 @@
             id="password"
             placeholder="Password"
             required
+            class="input"
           />
           <br /><br />
-          <p>_____________ or _____________</p>
           <button>Create Account</button>
+          <p>Already have an account ?<a href=""> Sign In</a></p>
+          <p>_____________ or _____________</p>
+
           <div class="icon">
-            <img src="google.svg" />
-            <img src="facebook.svg" />
-            <img src="mac.svg" />
+            <img src="google.svg" class="img" />
+            <img src="facebook.svg" class="img" />
+            <img src="mac.svg" class="img" />
           </div>
         </form>
       </div>

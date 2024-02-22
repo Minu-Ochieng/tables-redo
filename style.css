@@ -1,15 +1,16 @@
 #wrapper {
-  margin: auto;
   padding: 0px 8px 0px 8px;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
-  width: 60%;
+
   margin: 0 auto;
 }
 .detail {
   display: flex;
   flex-wrap: wrap;
+  width: 50%;
+  padding: 30px;
 }
 .header {
   width: 100%;
@@ -31,6 +32,9 @@ img {
 }
 .credentials {
   display: flex;
+  border-left: 2px solid purple;
+  padding: 30px;
+  width: 50%;
   /* flex-basis: 50%; */
 }
 label {
@@ -45,17 +49,29 @@ label {
 .icon {
   display: flex;
 }
-.icon img {
-  width: 30%;
-  height: 10%;
+.img {
+  width: 10%;
+  padding: 20px;
 }
 button {
   background-color: purple;
   color: white;
   border: none;
   padding: 12px 16px;
+  width: 85%;
 }
 h3 {
   font-size: 35px;
   margin-bottom: 15px;
+}
+.input {
+  width: 80%;
+  padding: 12px 16px;
+}
+#input {
+  width: 50%;
+}
+a {
+  color: purple;
+  text-decoration: none;
 }
